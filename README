@@ -1,0 +1,25 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4814
+
+A Vim frontend for howdoi, the awesome command line tool that lets you ask what you need and grabs the snippet of code from SO.
+
+Please use the GitHub project for bug reports and feature suggestions:
+https://github.com/laurentgoudet/vim-howdoi
+
+Features:
+- Type your query and enter <CTRL-H> to get the code!
+- You can also use the plugin's menu entry under GUI
+- Overwrite the default mapping with map <WhatYouWant> <Plug>Howdoi
+
+Requirements:
+- Install howdoi if you haven't: pip install howdoi
+- You must also have vim compiled with +python support. You can check that using the command: vim --version | grep +python. Vim package in Ubuntu and it's derivatives comes with +python support.
+
+Usage
+- Write what your are looking for
+- Press <CTRL-H> to get the code!
+
+Troubleshooting
+- You'll maybe need LXML2 apt-get install python-lxml if howdoi compilation fails.
+
+License
+- This plugin is released under the WTFPLv2 License.
